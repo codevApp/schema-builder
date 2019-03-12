@@ -1,5 +1,5 @@
 {
-    "name": "agontuk/schema-builder",
+    "name": "codevapp/schema-builder",
     "description": "Schema designer & migration generator for laravel & lumen",
     "version": "1.2.0",
     "type": "library",
