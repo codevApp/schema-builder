@@ -27,7 +27,7 @@
         }
     ],
     "require": {
-        "codevApp/schema-builder": "dev-master",
+        "Agontuk/schema-builder": "dev-bugfix",
         "ext-zip": "*",
         "illuminate/filesystem": "^5.0.0",
         "illuminate/http": "^5.0.0",
