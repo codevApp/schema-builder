@@ -1,5 +1,5 @@
 {
-    "name": "codevapp/schema-builder",
+    "name": "codevApp/schema-builder",
     "description": "Schema designer & migration generator for laravel & lumen",
     "version": "1.2.0",
     "type": "library",
@@ -22,9 +22,9 @@
     ],
     "require": {
         "ext-zip": "*",
-        "illuminate/filesystem": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.8.*",
-        "illuminate/http": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.8.*",
-        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.8.*",
+        "illuminate/filesystem": "^5.0.0",
+        "illuminate/http": "^5.0.0",
+        "illuminate/support": "^5.0.0",
         "league/flysystem": "^1.0",
         "league/flysystem-ziparchive": "^1.0"
     },
@@ -35,5 +35,17 @@
         "psr-4": {
             "Agontuk\\Schema\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agontuk\\Schema\\SchemaServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
