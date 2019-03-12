@@ -1,7 +1,7 @@
 {
     "name": "codevApp/schema-builder",
     "description": "Schema designer & migration generator for laravel & lumen",
-    "version": "1.2.0",
+    "version": "dev-master",
     "type": "library",
     "keywords": [
         "schema",
@@ -20,7 +20,14 @@
             "homepage": "https://github.com/Agontuk"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/codevapp/schema-builder"
+        }
+    ],
     "require": {
+        "codevApp/schema-builder": "dev-master",
         "ext-zip": "*",
         "illuminate/filesystem": "^5.0.0",
         "illuminate/http": "^5.0.0",
